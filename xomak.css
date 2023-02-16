@@ -1,0 +1,33 @@
+body {
+    background: #ccc;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0); /* Цвет текста */
+}
+body::before {
+    content: '';
+    position: fixed; /* Фиксируем на одном месте */
+    left: 0; right: 0; /* Вся ширин */
+    top: 0; bottom: 0; /* Вся высота */
+    z-index: -1; /* Фон ниже текста */
+    /* Параметры фона */
+    background: url(https://cdn.nur.kz/images/1120x630/2a5dab4b3bdce258.jpeg) center / cover no-repeat;
+    filter: blur(5px); /* Размытие */
+   }
+li {
+    font-size: 20px;
+    word-wrap: normal;
+}
+.title {
+    animation: tada;
+    animation-duration: 1.5s;
+    font-size: 60px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    font-size: 30px;
+}
+a:hover {
+    font-size: 35px;
+    transition: all 1s;
+}

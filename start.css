@@ -1,0 +1,38 @@
+.color {
+    display: flex;
+   flex-direction: row;
+   font-size: 150px;
+   justify-content: center;
+   animation: rubberBand;
+   animation-duration: 1.5s;
+}
+.one {
+    color: rgb(255, 102, 0);
+}
+.two {
+    color: rgb(255, 187, 0);
+}
+.three {
+    color: rgb(255, 251, 0);
+}
+.four {
+    color: rgb(200, 255, 0);
+}
+.five {
+    color: rgb(60, 255, 0);
+}
+.six {
+    color: rgb(0, 255, 149);
+}
+.text {
+    text-align: center;
+    font-size: 35px;
+}
+.pos {
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+}
+a {
+    text-decoration: none;
+}
